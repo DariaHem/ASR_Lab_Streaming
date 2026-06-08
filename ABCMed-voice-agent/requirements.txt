@@ -1,0 +1,22 @@
+faster-whisper>=1.0.0
+torch>=2.1.0
+torchaudio>=2.1.0
+chatterbox-tts
+ollama>=0.3.0
+numpy>=1.24.0
+librosa>=0.10.0
+soundfile>=0.12.0
+webrtcvad>=2.0.10
+gradio>=4.0.0
+scipy>=1.11.0
+jiwer>=3.0.0
+
+# Cross-platform TTS (auto-detection: macOS say / pyttsx3 / edge-tts)
+pyttsx3>=2.90
+edge-tts>=6.1.0
+
+# PyAudio — opcjonalne, wymagane tylko do trybu live (mikrofon)
+# macOS:   brew install portaudio && pip install pyaudio
+# Linux:   sudo apt install portaudio19-dev && pip install pyaudio
+# Windows: pip install pyaudio (lub wheel z https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio)
+# pyaudio>=0.2.14
